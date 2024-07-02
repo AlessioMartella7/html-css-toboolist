@@ -21,14 +21,14 @@ h1{
 
 }
 
-h2{
+h2, li{
     font-family: sans-serif;
     font-weight: 600;
 }
 /* Utilities */
 
 .container{
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 40px auto 0px;
    
 }
@@ -56,9 +56,14 @@ h2{
 /* List Actions */
 
 .list-header{
-  height: 80px;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
+     height: 80px;
+     border-top-left-radius: 7px;
+     border-top-right-radius: 7px;
+}
+
+.border-bot{
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
 }
 
 .add-button{
@@ -131,13 +136,14 @@ h2{
 /* Section Boxes */
 
 .section-box{
+    font-weight: 100;
     color: white;
     display: inline-block;
     border: 1px solid transparent;
     border-radius: 10px;
-    padding: 3px;
-    font-size: 0.8em
-}
+    padding: 4px;
+    font-size: 0.7em
+    }
 
 /* Boxes Color */
 
