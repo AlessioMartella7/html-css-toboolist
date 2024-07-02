@@ -20,6 +20,11 @@ h1{
     vertical-align: middle;
 
 }
+
+h2{
+    font-family: sans-serif;
+    font-weight: 600;
+}
 /* Utilities */
 
 .container{
@@ -75,4 +80,21 @@ h1{
     background-color: white;
     color: #88838E;
     border: 1px solid black;
+}
+
+/* List sections */
+
+.task{
+    padding: 40px 35px 20px;
+    list-style: none;
+    
+}
+.arrow{
+    vertical-align: middle;
+    display: inline;
+}
+
+.list-title{
+    vertical-align: middle;
+    display: inline;
 }
